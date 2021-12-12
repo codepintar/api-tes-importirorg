@@ -49,3 +49,7 @@ Route::post('/barang_inout_delete', [BarangInoutController::class, 'inout_delete
 
 //Laporan Stok
 Route::post('/laporan_stok_harian', [LaporanController::class, 'stok_harian']);
+Route::post('/laporan_stok_bulanan', [LaporanController::class, 'stok_bulanan']);
+Route::post('/laporan_stok_tahunan', [LaporanController::class, 'stok_tahunan']);
+Route::post('/laporan_barang_masuk', [LaporanController::class, 'barang_masuk']);
+Route::post('/laporan_barang_keluar', [LaporanController::class, 'barang_keluar']);
