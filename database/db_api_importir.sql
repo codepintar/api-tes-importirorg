@@ -52,11 +52,11 @@ CREATE TABLE `barang_in_out` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 /*Data for the table `barang_in_out` */
 
-insert  into `barang_in_out`(`id`,`sku`,`tanggal`,`qty`,`is_flag`,`created_by`,`updated_by`,`is_deleted`,`created_at`,`updated_at`) values (1,'0001','2021-12-12',30,'IN','2','0',0,'2021-12-12 11:03:39','2021-12-12 11:03:39'),(2,'0001','2021-12-13',10,'IN','2','0',0,'2021-12-12 11:08:05','2021-12-12 11:08:05'),(3,'0001','2021-12-12',5,'OUT','2','0',0,'2021-12-12 11:09:48','2021-12-12 11:09:48'),(4,'0001','2021-12-13',15,'IN','2','0',0,'2021-12-12 11:48:46','2021-12-12 11:48:46');
+insert  into `barang_in_out`(`id`,`sku`,`tanggal`,`qty`,`is_flag`,`created_by`,`updated_by`,`is_deleted`,`created_at`,`updated_at`) values (1,'0001','2021-12-12',30,'IN','2','0',0,'2021-12-12 11:03:39','2021-12-12 11:03:39'),(2,'0001','2021-12-13',10,'IN','2','0',0,'2021-12-12 11:08:05','2021-12-12 11:08:05'),(3,'0001','2021-12-12',5,'OUT','2','0',0,'2021-12-12 11:09:48','2021-12-12 11:09:48'),(4,'0001','2021-12-13',15,'IN','2','0',0,'2021-12-12 11:48:46','2021-12-12 11:48:46'),(5,'0001','2021-12-18',2,'OUT','2','0',0,'2021-12-12 13:21:23','2021-12-12 13:21:23');
 
 /*Table structure for table `failed_jobs` */
 
