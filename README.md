@@ -14,7 +14,7 @@ API ini terdiri dari : <br>
 
 Prosedur penggunaaan : 
 - User Register
-- User Login , nanti returnnya mendapatkan Token JWT,
+- Silahkan gunakan Fungsi User Login di Collection Postmant, nanti returnnya mendapatkan Token JWT,
 - Setiap Request Data atau melakukan proses CRUD di POSTMANT wajib menyertakan Authorization -> Bearer Token -> Masukan token yang di ambil dari Proses Login
 
 Role akses usernya : <br>
